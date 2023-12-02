@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Libertad</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Italiana&family=Italianno&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/acercadenosotros.svg">
+</head>
+
+<body">
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-lg d-flex">
+      <!-- Logo AdN -->
+      <a class="navbar-brand me-auto p-2 flex-fill" href="#"><img src="img/acercadenosotros.svg " class="img-fluid"
+          alt="Acerca de Nosotros"></a>
+      <!-- Logo Libertad -->
+      <a class="navbar-brand d-flex justify-content-center p-2 flex-fill fs-1 white-text" href="index.html">Libertad</a>
+      <!-- Offcanvas -->
+      <div class="offcanvas offcanvas-end text-bg-dark d-flex justify-content-end p-2 flex-fill" tabindex="-1"
+        id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Libertad</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body me-0">
+          <ul class="navbar-nav mx-auto me-lg-0">
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="menu.html">Menú</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link mx-lg-2 dropdown-toggle" href="aves.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Aves
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="aves.html">Menú de aves</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="aves.html#mosquero-cordillerano">Mosquero Cordillerano</a></li>
+                <li><a class="dropdown-item" href="aves.html#golondrina-tijereta">Golondrina Tijereta</a></li>
+                <li><a class="dropdown-item" href="aves.html#golondrina-tijereta2">Golondrina Tijereta</a></li>
+                <li><a class="dropdown-item" href="aves.html#mosquero-cordillerano2">Mosquero Cordillerano</a></li>
+                <li><a class="dropdown-item" href="aves.html#chipe-mejilla-dorada">Chipe Mejilla Dorada</a></li>
+                <li><a class="dropdown-item" href="aves.html#chara-pecho-gris">Chara Pecho Gris</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2 active" href="rutas.html">Rutas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="entrevistas.html">Entrevistas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="navbar-toggler border-0 me-auto p-2 flex-fill " type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <!-- End NavBar -->
+
+  <!-- Content -->
+  <main>
+    <div class="container">
+
+      <section class="row justify-content-evenly align-items-lg-center img-fluid">
+
+        <article class="col-12 col-lg-6 d-flex align-self-center fade-in-start">
+          <div class="mx-auto">
+            <nav id="navbar-example2" class="navbar px-3 mb-3">
+              <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading1">Ruta 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading2">Ruta 2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading3">Ruta 3</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading4">Ruta 4</a>
+                </li>
+              </ul>
+            </nav>
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+              data-bs-smooth-scroll="true" class="scrollspy-example rounded-2 rutas" tabindex="0">
+              <div class="p-3 bg-custom" style="--bg-color-custom: var(--violet-route)">
+                <h2 id="scrollspyHeading1" class="second-font display-4 border-color"
+                  style="--border-custom-color: var(--bs-white)">Ruta
+                  Del Pacífico</h2>
+                <p><b>Origen de la Ruta:</b><br>
+                  Las aves que siguen la ruta del Pacífico suelen tener su origen en áreas de reproducción en el norte
+                  de
+                  América del Norte, como Canadá y Alaska. Estas áreas proporcionan condiciones propicias para la
+                  reproducción
+                  durante la
+                  temporada de verano.
+                  <br><b>Características del Viaje:</b><br>
+                  Durante la temporada de migración, que generalmente ocurre en otoño, las aves inician su viaje hacia
+                  el
+                  sur.
+                  La ruta del Pacífico les ofrece un corredor a lo largo de la costa oeste, permitiéndoles evitar las
+                  dificultades asociadas con las vastas extensiones de agua en el océano.
+                  <br><b>Hábitats Utilizados:</b><br>
+                  Las aves migratorias que siguen esta ruta aprovechan una variedad de hábitats en México. Esto puede
+                  incluir
+                  áreas costeras, manglares, bosques tropicales, estuarios y otros hábitats a lo largo de la costa del
+                  Pacífico mexicano.
+                  <br><b>Importancia de México:</b><br>
+                  México sirve como una parada crucial en el viaje migratorio de estas aves. Muchas de ellas descansan y
+                  se
+                  alimentan en
+                  los hábitats mexicanos antes de continuar hacia el sur, cruzando eventualmente América Central y
+                  llegando
+                  a
+                  América del
+                  Sur.
+                  <br><b>Observación de Aves:</b><br>
+                  La ruta del Pacífico ofrece oportunidades excepcionales para la observación de aves. Diversas
+                  especies,
+                  desde aves
+                  acuáticas hasta rapaces y passeriformes, pueden ser avistadas a lo largo de la costa y en áreas
+                  específicas
+                  de México
+                  durante la migración.
+                  <br><b>Conservación:</b><br>
+                  La conservación de los hábitats a lo largo de la ruta del Pacífico es crucial para garantizar el éxito
+                  de
+                  la
+                  migración
+                  de estas aves. La degradación de hábitats costeros y la pérdida de áreas de alimentación pueden
+                  afectar
+                  negativamente a
+                  las poblaciones de aves migratorias.
+                </p>
+              </div>
+              <div class="p-3 bg-custom" style="--bg-color-custom: var(--brown-route)">
+                <h2 id="scrollspyHeading2" class="second-font display-4 border-color"
+                  style="--border-custom-color: var(--bs-white)">Ruta
+                  Del Pacífico 2</h2>
+                <p><b>Origen de la Ruta:</b><br>
+                  Las aves que siguen la ruta del Pacífico suelen tener su origen en áreas de reproducción en el norte
+                  de
+                  América del Norte, como Canadá y Alaska. Estas áreas proporcionan condiciones propicias para la
+                  reproducción
+                  durante la
+                  temporada de verano.
+                  <br><b>Características del Viaje:</b><br>
+                  Durante la temporada de migración, que generalmente ocurre en otoño, las aves inician su viaje hacia
+                  el
+                  sur.
+                  La ruta del Pacífico les ofrece un corredor a lo largo de la costa oeste, permitiéndoles evitar las
+                  dificultades asociadas con las vastas extensiones de agua en el océano.
+                  <br><b>Hábitats Utilizados:</b><br>
+                  Las aves migratorias que siguen esta ruta aprovechan una variedad de hábitats en México. Esto puede
+                  incluir
+                  áreas costeras, manglares, bosques tropicales, estuarios y otros hábitats a lo largo de la costa del
+                  Pacífico mexicano.
+                  <br><b>Importancia de México:</b><br>
+                  México sirve como una parada crucial en el viaje migratorio de estas aves. Muchas de ellas descansan y
+                  se
+                  alimentan en
+                  los hábitats mexicanos antes de continuar hacia el sur, cruzando eventualmente América Central y
+                  llegando
+                  a
+                  América del
+                  Sur.
+                  <br><b>Observación de Aves:</b><br>
+                  La ruta del Pacífico ofrece oportunidades excepcionales para la observación de aves. Diversas
+                  especies,
+                  desde aves
+                  acuáticas hasta rapaces y passeriformes, pueden ser avistadas a lo largo de la costa y en áreas
+                  específicas
+                  de México
+                  durante la migración.
+                  <br><b>Conservación:</b><br>
+                  La conservación de los hábitats a lo largo de la ruta del Pacífico es crucial para garantizar el éxito
+                  de
+                  la
+                  migración
+                  de estas aves. La degradación de hábitats costeros y la pérdida de áreas de alimentación pueden
+                  afectar
+                  negativamente a
+                  las poblaciones de aves migratorias.
+                </p>
+              </div>
+              <div class="p-3 bg-custom" style="--bg-color-custom: var(--yellow-route); color: var(--dark-grey-color)">
+                <h2 id="scrollspyHeading3" class="second-font display-4 border-color"
+                  style="--border-custom-color: var(--dark-grey-color)">Ruta
+                  Del Pacífico 3</h2>
+                <p><b>Origen de la Ruta:</b><br>
+                  Las aves que siguen la ruta del Pacífico suelen tener su origen en áreas de reproducción en el norte
+                  de
+                  América del Norte, como Canadá y Alaska. Estas áreas proporcionan condiciones propicias para la
+                  reproducción
+                  durante la
+                  temporada de verano.
+                  <br><b>Características del Viaje:</b><br>
+                  Durante la temporada de migración, que generalmente ocurre en otoño, las aves inician su viaje hacia
+                  el
+                  sur.
+                  La ruta del Pacífico les ofrece un corredor a lo largo de la costa oeste, permitiéndoles evitar las
+                  dificultades asociadas con las vastas extensiones de agua en el océano.
+                  <br><b>Hábitats Utilizados:</b><br>
+                  Las aves migratorias que siguen esta ruta aprovechan una variedad de hábitats en México. Esto puede
+                  incluir
+                  áreas costeras, manglares, bosques tropicales, estuarios y otros hábitats a lo largo de la costa del
+                  Pacífico mexicano.
+                  <br><b>Importancia de México:</b><br>
+                  México sirve como una parada crucial en el viaje migratorio de estas aves. Muchas de ellas descansan y
+                  se
+                  alimentan en
+                  los hábitats mexicanos antes de continuar hacia el sur, cruzando eventualmente América Central y
+                  llegando
+                  a
+                  América del
+                  Sur.
+                  <br><b>Observación de Aves:</b><br>
+                  La ruta del Pacífico ofrece oportunidades excepcionales para la observación de aves. Diversas
+                  especies,
+                  desde aves
+                  acuáticas hasta rapaces y passeriformes, pueden ser avistadas a lo largo de la costa y en áreas
+                  específicas
+                  de México
+                  durante la migración.
+                  <br><b>Conservación:</b><br>
+                  La conservación de los hábitats a lo largo de la ruta del Pacífico es crucial para garantizar el éxito
+                  de
+                  la
+                  migración
+                  de estas aves. La degradación de hábitats costeros y la pérdida de áreas de alimentación pueden
+                  afectar
+                  negativamente a
+                  las poblaciones de aves migratorias.
+                </p>
+              </div>
+              <div class="p-3 bg-custom" style="--bg-color-custom: var(--green-route)">
+                <h2 id="scrollspyHeading4" class="second-font display-4 border-color"
+                  style="--border-custom-color: var(--bs-white)">Ruta
+                  Del Pacífico 4</h2>
+                <p><b>Origen de la Ruta:</b><br>
+                  Las aves que siguen la ruta del Pacífico suelen tener su origen en áreas de reproducción en el norte
+                  de
+                  América del Norte, como Canadá y Alaska. Estas áreas proporcionan condiciones propicias para la
+                  reproducción
+                  durante la
+                  temporada de verano.
+                  <br><b>Características del Viaje:</b><br>
+                  Durante la temporada de migración, que generalmente ocurre en otoño, las aves inician su viaje hacia
+                  el
+                  sur.
+                  La ruta del Pacífico les ofrece un corredor a lo largo de la costa oeste, permitiéndoles evitar las
+                  dificultades asociadas con las vastas extensiones de agua en el océano.
+                  <br><b>Hábitats Utilizados:</b><br>
+                  Las aves migratorias que siguen esta ruta aprovechan una variedad de hábitats en México. Esto puede
+                  incluir
+                  áreas costeras, manglares, bosques tropicales, estuarios y otros hábitats a lo largo de la costa del
+                  Pacífico mexicano.
+                  <br><b>Importancia de México:</b><br>
+                  México sirve como una parada crucial en el viaje migratorio de estas aves. Muchas de ellas descansan y
+                  se
+                  alimentan en
+                  los hábitats mexicanos antes de continuar hacia el sur, cruzando eventualmente América Central y
+                  llegando
+                  a
+                  América del
+                  Sur.
+                  <br><b>Observación de Aves:</b><br>
+                  La ruta del Pacífico ofrece oportunidades excepcionales para la observación de aves. Diversas
+                  especies,
+                  desde aves
+                  acuáticas hasta rapaces y passeriformes, pueden ser avistadas a lo largo de la costa y en áreas
+                  específicas
+                  de México
+                  durante la migración.
+                  <br><b>Conservación:</b><br>
+                  La conservación de los hábitats a lo largo de la ruta del Pacífico es crucial para garantizar el éxito
+                  de
+                  la
+                  migración
+                  de estas aves. La degradación de hábitats costeros y la pérdida de áreas de alimentación pueden
+                  afectar
+                  negativamente a
+                  las poblaciones de aves migratorias.
+                </p>
+              </div>
+
+
+            </div>
+          </div>
+
+        </article>
+
+        <article class="col-12 col-lg-6 align-self-center d-flex maps fade-in-end">
+          <div class="row justify-content-center bg-first-color mx-auto">
+            <iframe src="https://www.google.com/maps/d/embed?mid=11_I8BSOlP6aacnntArAg3aNizpRO7GE&hl=es&ehbc=2E312F"
+              width="640" height="480" class="img-fluid vh-60 pb-3">
+            </iframe>
+            <a href="https://earth.google.com/web/@25.01362691,-99.63384546,3.98253411a,6764765.77885151d,30.00099994y,0h,0t,0r/data=MigKJgokCiAxMV9JOEJTT2xQNmFhY25udEFyQWczYU5penBSTzdHRSACOgMKATA"
+              target=”_blank”>
+              <div class="d-grid gap-2">
+                <button type="button" class="btn btn-light fw-bold">Abrir en Google
+                  Earth <i class="bi bi-globe-americas"></i>
+                </button>
+              </div>
+            </a>
+          </div>
+
+        </article>
+
+      </section>
+
+
+    </div>
+
+  </main>
+  <!-- End Content -->
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white p-3 fixed-bottom">
+    <div class="row container text-center mx-auto">
+      <small class="">&copy; Acerca de Nosotros</small>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  </body>
+
+</html>

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Libertad</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Italiana&family=Italianno&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/acercadenosotros.svg">
+</head>
+
+<body">
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-lg d-flex">
+      <!-- Logo AdN -->
+      <a class="navbar-brand me-auto p-2 flex-fill" href="#"><img src="img/acercadenosotros.svg " class="img-fluid"
+          alt="Acerca de Nosotros"></a>
+      <!-- Logo Libertad -->
+      <a class="navbar-brand d-flex justify-content-center p-2 flex-fill fs-1 white-text" href="index.html">Libertad</a>
+      <!-- Offcanvas -->
+      <div class="offcanvas offcanvas-end text-bg-dark d-flex justify-content-end p-2 flex-fill" tabindex="-1"
+        id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Libertad</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body me-0">
+          <ul class="navbar-nav mx-auto me-lg-0">
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="menu.html">Menú</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link mx-lg-2 dropdown-toggle" href="aves.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Aves
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="aves.html">Menú de aves</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="aves.html#mosquero-cordillerano">Mosquero Cordillerano</a></li>
+                <li><a class="dropdown-item" href="aves.html#golondrina-tijereta">Golondrina Tijereta</a></li>
+                <li><a class="dropdown-item" href="aves.html#golondrina-tijereta2">Golondrina Tijereta</a></li>
+                <li><a class="dropdown-item" href="aves.html#mosquero-cordillerano2">Mosquero Cordillerano</a></li>
+                <li><a class="dropdown-item" href="aves.html#chipe-mejilla-dorada">Chipe Mejilla Dorada</a></li>
+                <li><a class="dropdown-item" href="aves.html#chara-pecho-gris">Chara Pecho Gris</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="rutas.html">Rutas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2 active" href="entrevistas.html">Entrevistas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="navbar-toggler border-0 me-auto p-2 flex-fill " type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <!-- End NavBar -->
+
+  <!-- Content -->
+  <main>
+    <div class="container">
+
+      <section class="row justify-content-evenly align-items-lg-center img-fluid pt-5" id="inicio">
+
+        <article class="col-12 col-lg-6 d-flex align-self-center fade-in-start pt-3">
+          <div class="mx-auto">
+            <video id="videoPlayer" class="img-fluid bg-custom"
+              style="--bg-color-custom: var(--dark-grey-color); padding: 1rem; border-radius: 1rem;" controls
+              preaload="auto" controlslist="nodownload">
+              <source src="video/PH1.mp4" type="video/mp4">
+              Tu navegador no soporta el vídeo de HTML5
+            </video>
+          </div>
+
+        </article>
+
+        <article class="col-12 col-lg-6 align-self-center d-flex fade-in-end pt-3">
+          <div class="mx-auto">
+            <h2 class="second-font display-1 text-center">Entrevista 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, quaerat quibusdam. Vitae vero
+              minus
+              minima eos, ratione facilis cum voluptatem quidem natus! Dolorem explicabo architecto non? Cumque rerum
+              facilis quidem.</p>
+          </div>
+
+        </article>
+
+      </section>
+
+    </div>
+
+    <button type="button" class="btn btn-warning btn-return">
+      <a href="#inicio"><i class="bi bi-chevron-bar-up"></i></a>
+    </button>
+
+  </main>
+  <!-- End Content -->
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white p-3 fixed-bottom">
+    <div class="row container text-center mx-auto">
+      <small class="">&copy; Acerca de Nosotros</small>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  </body>
+
+</html>

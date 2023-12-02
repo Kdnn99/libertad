@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Libertad</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Italiana&family=Italianno&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/acercadenosotros.svg">
+</head>
+
+<body class="bg-hero-image" style="--bg-image: url(../img/Fondo04.png);">
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-lg d-flex">
+      <!-- Logo AdN -->
+      <a class="navbar-brand me-auto p-2 flex-fill" href="#"><img src="img/acercadenosotros.svg " class="img-fluid"
+          alt="Acerca de Nosotros"></a>
+      <!-- Logo Libertad -->
+      <a class="navbar-brand d-flex justify-content-center p-2 flex-fill fs-1 white-text" href="index.html">Libertad</a>
+      <!-- Offcanvas -->
+      <div class="offcanvas offcanvas-end text-bg-dark d-flex justify-content-end p-2 flex-fill" tabindex="-1"
+        id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Libertad</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body me-0">
+          <ul class="navbar-nav mx-auto me-lg-0">
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2 active" href="menu.html">Menú</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link mx-lg-2 dropdown-toggle" href="aves.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Aves
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="aves.html">Menú de aves</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="aves.html#mosquero-cordillerano">Mosquero Cordillerano</a></li>
+                <li><a class="dropdown-item" href="aves.html#golondrina-tijereta">Golondrina Tijereta</a></li>
+                <li><a class="dropdown-item" href="aves.html#golondrina-tijereta2">Golondrina Tijereta</a></li>
+                <li><a class="dropdown-item" href="aves.html#mosquero-cordillerano2">Mosquero Cordillerano</a></li>
+                <li><a class="dropdown-item" href="aves.html#chipe-mejilla-dorada">Chipe Mejilla Dorada</a></li>
+                <li><a class="dropdown-item" href="aves.html#chara-pecho-gris">Chara Pecho Gris</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="rutas.html">Rutas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="entrevistas.html">Entrevistas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="navbar-toggler border-0 me-auto p-2 flex-fill " type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <!-- End NavBar -->
+
+  <!-- Content -->
+  <main>
+    <div class="container">
+      <section class="row vh-85 align-items-center">
+
+        <article class="col-12 col-lg-4 px-4 fade-in-start border-brown-start">
+          <a class="card" href="aves.html">
+            <img src="img/las-aves.png" alt="Las aves">
+            <aside class="card-info">
+              <div class="text-overflow-hidden text-card-responsive">
+                <h3>Las aves</h3>
+                <p>Conoce más acerca de las aves que visitan la República Mexicana durante su proceso de migración.
+              </div>
+            </aside>
+          </a>
+        </article>
+
+        <article class="col-12 col-lg-4 px-4 fade-in">
+          <a class="card" href="rutas.html">
+            <img src="img/las-rutas.png" alt="Las rutas">
+            <aside class="card-info">
+              <div class="text-overflow-hidden text-card-responsive">
+                <h3>Las rutas</h3>
+                <p>Conoce las 4 rutas de migración que atraviesan la Republica mexicana
+              </div>
+            </aside>
+          </a>
+        </article>
+        <article class="col-12 col-lg-4 px-4 fade-in-end border-brown-end">
+          <a class="card" href="entrevistas.html">
+            <img src="img/aviario.png" alt="Aviario">
+            <aside class="card-info">
+              <div class="text-overflow-hidden text-card-responsive">
+                <h3>La ciencia de las aves</h3>
+                <p>Entrevistas exclusivas desde el interior del Laboratiro de Ornitología de la UNAM, quienes nos
+                  explican la vida de las aves desde la voz de la biología.
+              </div>
+            </aside>
+          </a>
+        </article>
+      </section>
+    </div>
+  </main>
+  <!-- End Content -->
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white p-3 fixed-bottom">
+    <div class="row container text-center mx-auto">
+      <small class="">&copy; Acerca de Nosotros</small>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

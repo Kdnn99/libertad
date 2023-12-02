@@ -1,0 +1,21 @@
+- Libertad más cerca ---
+
+- Agregar 5 segundo de negro al video y texto
+
+- Hero Image de prueba en Menú ---
+
+- Fondo de hierba en Aves ---
+
+- Botón en el pico ---
+
+- Aves, en las imágenes agregar un modal en grande de la img, y ponerle un glow de color ---
+
+- Botón para regresar arriba de la página ---
+
+- Fondo del color de la ruta y texto justificado ---
+
+- Entrevistas video borde negro ---
+
+- Botón para regresar arriba de la página ---
+
+- Checkbox en cada página
